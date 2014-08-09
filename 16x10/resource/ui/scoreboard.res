@@ -38,14 +38,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueBlackBG"
-		"xpos"			"3"
-		"ypos"			"18"
-		"zpos"			"0"
-		"wide"			"294"
-		"tall"			"290" //228
-		"visible"		"0"
+		"xpos"			"5"
+		"ypos"			"38"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"30" //228
+		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 205"
 		
 		if_mvm
 		{
@@ -56,14 +56,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedBlackBG"
-		"xpos"			"298"
-		"ypos"			"18"
-		"zpos"			"0"
-		"wide"			"295"
-		"tall"			"290" //228
-		"visible"		"0"
+		"xpos"			"300"
+		"ypos"			"38"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"30" //228
+		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 205"
 		
 		if_mvm
 		{
@@ -75,10 +75,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"5"
-		"ypos"			"20"
+		"ypos"			"33"
 		"zpos"			"0"
 		"wide"			"290"
-		"tall"			"35" //228
+		"tall"			"5" //228
 		"visible"		"1"
 		"enabled"		"1"	
 		"fillcolor"		"0 161 230 205"
@@ -93,10 +93,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreListBG"
 		"xpos"			"5"
-		"ypos"			"55"
+		"ypos"			"69"
 		"zpos"			"0"
 		"wide"			"290"
-		"tall"			"250" //228
+		"tall"			"260" //228
 		"visible"		"1"
 		"enabled"		"1"	
 		"fillcolor"		"0 0 0 100"
@@ -111,10 +111,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"300"
-		"ypos"			"20"
+		"ypos"			"33"
 		"zpos"			"0"
 		"wide"			"290"
-		"tall"			"35" //228
+		"tall"			"5" //228
 		"visible"		"1"
 		"enabled"		"1"	
 		"fillcolor"		"255 77 77 205"
@@ -129,10 +129,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedScoreListBG"
 		"xpos"			"300"
-		"ypos"			"55"
+		"ypos"			"69"
 		"zpos"			"0"
 		"wide"			"290"
-		"tall"			"250" //228
+		"tall"			"260" //228
 		"visible"		"1"
 		"enabled"		"1"	
 		"fillcolor"		"0 0 0 100"
@@ -169,16 +169,17 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"HandelGothic2"
+		"font"			"square36"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"120" [!$OSX]
+		"xpos"			"150" [!$OSX]
 		"xpos"			"15" [$OSX]
 		"xpos_hidef"		"40"
-		"ypos"			"25"	[$WIN32]
+		"ypos"			"35"	[$WIN32]
 		"ypos"			"29"	[$X360]
+		"zpos"			"2"
 		"wide"			"180"
-		"tall"			"34"
+		"tall"			"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -199,7 +200,7 @@
 		"xpos"			"-40"
 		"xpos_lodef"		"170"
 		"xpos_hidef"		"190"
-		"ypos"			"12" 
+		"ypos"			"25" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -226,7 +227,7 @@
 		"xpos"			"-41"
 		"xpos_lodef"	"171"
 		"xpos_hidef"	"191"
-		"ypos"			"12" 
+		"ypos"			"25" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -251,7 +252,7 @@
 		"textAlignment"		"west"
 		"xpos"			"150"
 		"xpos_hidef"		"100"
-		"ypos"			"65"
+		"ypos"			"77"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"		"1"
@@ -268,17 +269,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"HandelGothic2"
+		"font"			"square36"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"400" [!$OSX]
 		"xpos"			"445" [$OSX]
 		"xpos_lodef"	"446"
 		"xpos_hidef"	"488"
-		"ypos"			"25"	[$WIN32]
+		"ypos"			"35"	[$WIN32]
 		"ypos"			"20"	[$X360]
+		"zpos"			"2"
 		"wide"			"140"
-		"tall"			"34"
+		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -299,7 +301,7 @@
 		"xpos"			"310"
 		"xpos_lodef"	"290"
 		"xpos_hidef"	"330"
-		"ypos"			"12" 
+		"ypos"			"25" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -326,7 +328,7 @@
 		"xpos"			"311"
 		"xpos_lodef"	"291"
 		"xpos_hidef"	"331"
-		"ypos"			"12"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -352,7 +354,7 @@
 		"xpos"			"350"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
-		"ypos"			"65"
+		"ypos"			"77"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"	"0"
@@ -374,7 +376,7 @@
 		"textAlignment"		"west"
 		"xpos"			"11"
 		"xpos_hidef"	"31"
-		"ypos"			"60"
+		"ypos"			"70"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
@@ -398,7 +400,7 @@
 		"textAlignment"		"east"
 		"xpos"			"285"
 		"xpos_hidef"	"31"
-		"ypos"			"60"
+		"ypos"			"70"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
@@ -420,7 +422,7 @@
 		"xpos"			"5"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
-		"ypos"			"72"
+		"ypos"			"85"
 		"zpos"			"20"
 		"wide"			"290"
 		"wide_lodef"	"267"
@@ -447,7 +449,7 @@
 		"xpos"			"300"
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
-		"ypos"			"72"
+		"ypos"			"85"
 		"zpos"			"20"
 		"wide"			"290"
 		"wide_lodef"	"267"
@@ -548,8 +550,7 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"5"
 		"xpos_hidef"	"30"
-		"ypos"			"305"	[$WIN32]
-		"ypos"			"200"	[$X360]
+		"ypos"			"330"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"585"
 		"wide_lodef"	"539"
@@ -879,7 +880,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"-50"
-		"ypos"			"330"
+		"ypos"			"355"
 		"zpos"			"3"
 		"wide"			"650"
 		"tall"			"500"

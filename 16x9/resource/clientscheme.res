@@ -661,12 +661,67 @@ Scheme
                 "antialias" "1"
             }
         }
+		
+	/////////ForgottenFuturist//////////////////////
+	    "Forgotten72"
+        {
+            "1"
+            {
+                "name"      "ForgottenFuturistRg-Bold"
+                "tall"      "72"
+                "tall_hidef"    "44"
+                "tall_lodef"    "44"
+                "weight"    "900"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+	    "Forgotten26"
+        {
+            "1"
+            {
+                "name"      "ForgottenFuturistRg-Bold"
+                "tall"      "26"
+                "tall_hidef"    "44"
+                "tall_lodef"    "44"
+                "weight"    "900"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+	    "Forgotten14"
+        {
+            "1"
+            {
+                "name"      "Prototype"
+                "tall"      "14"
+                "tall_hidef"    "44"
+                "tall_lodef"    "44"
+                "weight"    "900"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+
 		"square1"
         {
             "1"
             {
                 "name"      "SquareFont"
                 "tall"      "15"
+                "tall_hidef"    "44"
+                "tall_lodef"    "44"
+                "weight"    "900"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+	"square36"
+        {
+            "1"
+            {
+                "name"      "SquareFont"
+                "tall"      "36"
                 "tall_hidef"    "44"
                 "tall_lodef"    "44"
                 "weight"    "900"
@@ -4796,6 +4851,16 @@ Scheme
 		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
+		}
+		"14" 
+		{
+			"font" "resource/fonts/forgotten futurist bd.ttf"
+			"name" "ForgottenFuturistRg-Bold"
+		}
+		"15" 
+		{
+			"font" "resource/fonts/Prototype.ttf"
+			"name" "Prototype"
 		}
 	}
 }
