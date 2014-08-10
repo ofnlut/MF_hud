@@ -7,4 +7,4 @@ How to install: put the aspect ratio folder that is the same as your ingame rati
 
 Crosshairs: Fog's crosshairs (v3) are installed, however they are not centered in order to do so go into the hudlayout.res file and change the xpos and ypos to your liking.
 
-Currently optimized for 16x9 and 16x10
+Currently optimized for 16x9 and 16x10 and 4x3
