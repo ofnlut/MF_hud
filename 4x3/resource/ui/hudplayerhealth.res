@@ -5,12 +5,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBGMaco"
-		"xpos"			"356"
+		"xpos"			"361"
 		"ypos"			"60"
 		"zpos"			"0"
 		"wide"			"2"
 		"tall"			"30" //228
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"	
 		"fillcolor"		"0 0 0 205"
 	}	
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"-57"		[$WIN32]
+		"xpos"			"64"		[$WIN32]
 		"ypos"			"r200"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"400"
@@ -61,11 +61,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"280"	[$WIN32]
-		"ypos"			"52"	[$WIN32]
+		"xpos"			"275"	[$WIN32]
+		"ypos"			"48"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"45"	[$WIN32]
-		"tall"			"45"	[$WIN32]
+		"wide"			"55"	[$WIN32]
+		"tall"			"55"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
