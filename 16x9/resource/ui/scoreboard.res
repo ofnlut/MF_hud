@@ -436,7 +436,7 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"fgcolor"		"White"
-		"font"			"Biko10"
+		"font"			"Biko8"
 		if_mvm
 		{
 			"visible"		"0"
@@ -503,9 +503,9 @@
 		"font"			"Biko10"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"20"
+		"xpos"			"15"
 		"xpos_hidef"	"135"
-		"ypos"			"300"	[$WIN32]
+		"ypos"			"330"	[$WIN32]
 		"ypos"			"277"	[$X360]
 		"zpos"			"4"
 		"wide"			"424"

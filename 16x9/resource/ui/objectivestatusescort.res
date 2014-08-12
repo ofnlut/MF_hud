@@ -299,7 +299,7 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"16"
-				"ypos"			"50"
+				"ypos"			"10"
 				"wide"			"0"
 				"tall"			"0"
 			}						
@@ -415,7 +415,7 @@
 			"zpos"			"3"
 			"wide"		"0"
 			"tall"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
@@ -442,7 +442,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"		"NotoSemibold8"
+			"font"		"biko8"
 			"xpos"		"11"
 			"ypos"		"47"
 			"zpos"			"4"

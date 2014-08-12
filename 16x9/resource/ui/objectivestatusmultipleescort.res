@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusMultipleEscort"
 		"xpos"				"80"
-		"ypos"				"0"
+		"ypos"				"25"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"

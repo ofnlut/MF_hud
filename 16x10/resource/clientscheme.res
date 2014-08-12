@@ -583,6 +583,16 @@ Scheme
                 "antialias" "1"
             }
         }
+	    "BikoBold14"
+        {
+            "1"
+            {
+                "name"      "Biko-Bold"
+                "tall"      "14"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
         "HandelGothic1"
         {
             "1"
@@ -709,6 +719,19 @@ Scheme
             {
                 "name"      "SquareFont"
                 "tall"      "15"
+                "tall_hidef"    "44"
+                "tall_lodef"    "44"
+                "weight"    "900"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+	"square12"
+        {
+            "1"
+            {
+                "name"      "SquareFont"
+                "tall"      "12"
                 "tall_hidef"    "44"
                 "tall_lodef"    "44"
                 "weight"    "900"
@@ -2739,6 +2762,125 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		YellowBorderQP
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 0 255"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "255 255 0 255"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "255 255 0 255"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "255 255 0 255"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "255 255 0 255"
+					"offset" "4 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 0 255"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "255 255 0 255"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "255 255 0 255"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "255 255 0 255"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "255 255 0 255"
+					"offset" "4 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 0 255"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "255 255 0 255"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "255 255 0 255"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "255 255 0 255"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "255 255 0 255"
+					"offset" "4 1"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 0 255"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "255 255 0 255"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "255 255 0 255"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "255 255 0 255"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "255 255 0 255"
+					"offset" "4 1"
+				}
+			}
+			
+		}
 		YellowBorderTabs
 		{
 			"inset" "0 0 1 1"
@@ -2828,6 +2970,7 @@ Scheme
 					"offset" "4 1"
 				}
 			}
+			
 		}
 		YellowBorderTabsInactive
 		{
@@ -4861,6 +5004,11 @@ Scheme
 		{
 			"font" "resource/fonts/Prototype.ttf"
 			"name" "Prototype"
+		}
+		"16" 
+		{
+			"font" "resource/fonts/Biko_Bold.otf"
+			"name" "Biko-Bold"
 		}
 	}
 }
